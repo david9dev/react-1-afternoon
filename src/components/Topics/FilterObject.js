@@ -56,7 +56,6 @@ class FilterObject extends Component
 
     updateUserInputHandler(event)
     {
-        console.log(event);
         this.setState({
             userInput: event
         })
