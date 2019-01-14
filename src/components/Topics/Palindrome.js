@@ -12,10 +12,10 @@ class Palindrome extends Component
             userInput: ""
         }
 
-        this.displayStuff = this.displayStuff.bind(this);
+        this.displayResult = this.displayResult.bind(this);
     }
 
-    displayStuff()
+    displayResult()
     {
         if(this.state.firstRun)
         {
@@ -76,7 +76,7 @@ class Palindrome extends Component
                 </button>
 
                 <span className="resultsBox">
-                    {this.displayStuff()}
+                    {this.displayResult()}
                 </span>
             </div>
         );

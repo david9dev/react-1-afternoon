@@ -58,7 +58,7 @@ buttonHandler()
                 <button  
                 className="confirmationButton"
                 onClick={() => this.buttonHandler()}> 
-                    click me
+                    Split
                 </button>
                 <span className="resultsBox">
                     Evens: [{this.state.evenArray}]
