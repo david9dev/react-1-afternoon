@@ -23,8 +23,6 @@ buttonHandler()
 {
     let tempArray = [];
     let {userInput} = this.state;
-    // let evenCopy = evenArray.slice();
-    // let oddCopy = oddArray.slice();
     let evenCopy = [];
     let oddCopy = [];
     tempArray = userInput.split(",");
